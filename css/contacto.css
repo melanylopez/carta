@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4A4A4A;
+}
+h1{
+    font-size: 40px;
+}
+header{
+    text-align: center;
+    margin-bottom: 2%;
+    
+}
+header a{
+    text-decoration: none;
+    color: #4A4A4A;
+    padding: 0.5% 2%;
+    background-color:  #E1A701;
+    border-radius: 10px;
+}
+form{
+    border: solid 2px #E1A701;
+    padding: 2% 5%;
+}
+form label h3{
+    font-size: 15px;
+}
+label{
+    font-size: 15px;
+}
+textarea{
+    width: 65%;
+}
+.botones{
+    margin-top: 2%;
+}
+button{
+    padding: 5px 15%;
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px #E1A701;
+    cursor: pointer;
+}
+.botones .enviar{
+    background-color: #E1A701;
+    color: white;
+}
+.botones .resetear{
+    color: #E1A701;
+}
